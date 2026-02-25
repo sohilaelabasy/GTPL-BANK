@@ -1,49 +1,124 @@
-# GPTL Bank - Quality Assurance Project
+# 🏦 GTPL Bank – Manual Testing Project
 
-## Project Overview
-**GPTL Bank** is my first hands-on project as a **Quality Assurance (QA) Tester**.  
-The project focuses on validating the core functionalities of a banking system, including customer account creation and management, ensuring data integrity and proper error handling.
+## 📌 Project Overview
 
-## Features Tested
-- Creating new customer accounts  
-- Adding and managing customer information  
-- Input data validation  
-- Handling invalid or non-existent data  
+This project demonstrates Manual Testing performed on the **GTPL Bank Demo Web Application**.  
+The system simulates a banking platform where users can manage customers, accounts, and transactions.
 
-## Tools & Techniques
-- **Microsoft Excel**: for documenting Test Cases and Bug Reports  
-- **Manual Testing**: to verify functional requirements and system behavior  
+The main objective was to validate the application's functionality, usability, and reliability by designing structured test cases and logging defects using industry-standard documentation practices.
 
-## Test Case Documentation
-Comprehensive **Test Cases** were developed to ensure:  
-- Accuracy and validity of user inputs  
-- Proper error messages for invalid operations  
-- Functional workflows operate as expected  
+---
 
-**Sample Test Case:**  
-- **TC_ID:** TC_NA_004  
-- **Feature:** New Account  
-- **Description:** Verify that opening a new account isn’t possible with data that doesn’t exist  
-- **Preconditions:**  
-  1. Manager should be logged in  
-  2. New Account page should be opened  
-- **Test Steps:**  
-  1. Fill the customer ID with data that doesn’t exist  
-  2. Choose a suitable type for the account  
-  3. Fill the initial deposit field with valid data  
-  4. Click on Submit  
-- **Test Data:**  
-  - Customer ID: `123456`  
-  - Account type: `Saving`  
-  - Initial deposit: `5000`  
-- **Expected Result:** The system should show an error message: `"The customer ID doesn't exist"`  
-- **Actual Result:** `"This page isn’t working right now. demo.guru99.com can't currently handle this request."`  
-- **Status:** FAIL  
+## 🎯 Project Scope
 
-## Bugs & Issues
-All identified bugs were recorded in a **Bug Report Sheet**, including detailed descriptions, steps to reproduce, and expected versus actual results.
+The following modules were tested:
 
-## Author
+- Generate Access
+- Login
+- Add Customer
+- Edit Customer
+- Delete Customer
+- New Account
+- Edit Account
+- Delete Account
+- Mini Statement
+- Customized Statement
+- Logout
+
+---
+
+## 🧪 Testing Activities Performed
+
+- Analyzed application requirements and identified test scenarios  
+- Designed and documented detailed test cases in Excel  
+- Executed test cases and recorded results (Pass/Fail)  
+- Identified and logged defects in a structured bug report sheet  
+- Assigned severity and priority levels to defects  
+- Performed Regression Testing after bug validation  
+- Conducted Smoke Testing to verify core functionality  
+
+---
+
+## 📊 Test Artifacts
+
+All testing documentation is available in:
+
+📁 `bank_management_system.xlsx`
+
+### ✅ Test Case Documentation (Module-wise)
+
+Each module includes:
+
+- Test Case ID  
+- Test Suite  
+- Test Scenario  
+- Pre-Condition  
+- Test Steps  
+- Test Data  
+- Expected Result  
+- Actual Result  
+- Status  
+
+---
+
+### 🐞 Bug Report Documentation
+
+The bug report sheet includes:
+
+- Bug Title  
+- Description  
+- Steps to Reproduce  
+- Expected Result  
+- Actual Result  
+- Severity  
+- Priority  
+- Environment  
+- Module  
+- Status  
+- Screenshot Reference  
+- Date  
+
+---
+
+## 📈 Project Highlights
+
+- Created and executed **50+ structured test cases**
+- Logged **24 documented defects**
+- Applied industry-standard QA documentation practices
+- Organized test cases module-wise for better traceability
+- Demonstrated understanding of defect lifecycle management
+
+---
+
+## 🛠 Tools Used
+
+- Microsoft Excel  
+- Google Chrome  
+- Manual Testing Techniques  
+
+---
+
+## 🧠 Testing Types Covered
+
+- Functional Testing  
+- Regression Testing  
+- Smoke Testing  
+- Exploratory Testing  
+- Input Validation Testing  
+
+---
+
+## 🚀 Key Learning Outcomes
+
+- Writing clear and effective test cases  
+- Proper defect reporting and classification  
+- Understanding Severity vs Priority  
+- Testing banking domain workflows  
+- Structured QA documentation  
+
+---
+
+## 👩‍💻 Author
+
 **Sohaila Elabasy**  
-Software Tester  
-📧 sohailaismail6@gmail.com
+Software Testing Engineer 
