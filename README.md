@@ -101,7 +101,6 @@ The bug report sheet includes:
 ## 🧠 Testing Types Covered
 
 - Functional Testing  
-- Regression Testing  
 - Smoke Testing  
 - Exploratory Testing  
 - Input Validation Testing  
